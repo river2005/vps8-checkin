@@ -3,7 +3,7 @@ name: VPS8 Checkin
 on:
   schedule:
     # 每天北京时间 09:07 运行（UTC 01:07，避开整点排队）
-    - cron: '7 1 * * *'
+    - cron: '11 1 * * *'
   workflow_dispatch:
     inputs:
       debug:
